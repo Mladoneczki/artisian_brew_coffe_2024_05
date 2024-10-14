@@ -1,0 +1,149 @@
+body{
+    margin: auto;
+    
+}
+.personalData{
+   /* margin: auto; */
+   padding: 10px;
+}
+
+input{
+    max-height: 20px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+     border: 1px solid var(--color2);
+    border-radius: 4px;
+}
+#nicknameInput{font-size: larger;
+padding-block: 15px;}
+
+.showCart{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 600px;
+    margin: 2rem;
+}
+.personalData p{
+    text-align: center;
+    align-items: center;
+}
+
+.cartItems{
+    display:inline-block;
+    height: fit-content;
+  /* margin: auto;     */
+}
+
+.cartItems .cartListItem{
+    border: 1px solid var(--color6);
+    height: 150px;
+    padding: 1rem;
+    /* margin: auto; */
+    margin-bottom: 10px;
+}
+.cartItems h2{
+    font-size: medium;
+    font-style: bold;
+    padding-left: 40px;
+    
+}
+ .cartItems p{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding-left: 20px;
+}
+span > * {
+    margin-right: 10px; 
+    
+    
+}
+/* .cartItems span{
+    display: block;
+    margin: 2px;
+    align-items: center;
+   
+} */
+.cartItems span {
+    display: flex;
+    justify-content: left;
+    align-items: start; 
+    padding-left: 20px;
+    
+  } 
+  /* .cartItems p, .cartItems span {
+    
+    margin-right: 10px; /* Választható: Hozzáadhat egy margin-t az elemek között */
+
+  
+.cartItems .itemImg{
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin-bottom: 20px,;
+    clear: both;
+}
+
+#primary{
+    width: fit-content;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: var(--color6);
+    border: none;
+    
+}
+
+#primary:hover{
+    background-color: var(--color2);
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.hide{
+  display: none;
+} 
+
+.payment button{
+    background-color: white;
+    border: 1px solid var(--color5);
+    padding: 6px
+}
+
+.payment button:hover{
+    background-color: var(--color5);
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+.payment{
+    background-color: var(--color4);
+    height: fit-content;
+    width: 600px;
+    margin: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+}
+#options-buttons label{
+   
+    margin-right: 10px;
+}
+.btn-close{
+    float:right;
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+}

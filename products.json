@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Cold Brew Latte",
+      "img": "../public/images/T1.png",
+      "cat": "Cold coffee"
+    },
+    {
+      "name": "Iced White Mocha Oat Shaken Espresso",
+      "img": "../public/images/T2.png",
+      "cat": "Cold coffee"
+    },
+    {
+      "name": "Iced Strawberry Matcha Latte",
+      "img": "../public/images/T3.png",
+      "cat": "Cold coffee"
+    },
+    {
+      "name": "Caffe Latte",
+      "img": "../public/images/T4.png",
+      "cat": "Hot coffee"
+    },
+    {
+      "name": "Caffe Americano",
+      "img": "../public/images/T6.png",
+      "cat": "Hot coffee"
+    },
+    {
+      "name": "Caramel Cream Frappuccino",
+      "img": "../public/images/T7.png",
+      "cat": "Frappuccino"
+    },
+    {
+      "name": "Caramel Frappuccino",
+      "img": "../public/images/T8.png",
+      "cat": "Frappuccino"
+    },
+    {
+      "name": "Strawberries and Cream Frappuccino",
+      "img": "../public/images/T9.png",
+      "cat": "Frappuccino"
+    }
+  ]
+  
